@@ -20,8 +20,8 @@ public class DoNotGamble {
             System.out.println("=========================");
             System.out.println("Felicitari!!! Ai plecat din cazino cu bani!!@#$!");
             System.out.printf("Balans: %.2f %n", moneyToDouble(pocketChange));
-            System.out.printf("Player Stats; \t\t Maini Jucate: %d, Medie Balans: %.2f, Suma Jucata: %.2f, Top Balance: %.2f %n", playerStats.getCount(), playerStats.getAverage(), playerStats.getSum(), playerStats.getMax());
-            System.out.printf("Bank   Stats: \t\t Maini Jucate: %d, Medie Balans: %.2f, Suma Jucata: %.2f, Top Balance: %.2f %n", bankStats.getCount(), bankStats.getAverage(), bankStats.getSum(), bankStats.getMax());
+            System.out.printf("Player Stats; \t\t Maini Jucate: %d, Medie Balans: %.2f, Top Balance: %.2f %n", playerStats.getCount(), playerStats.getAverage(), playerStats.getMax());
+            System.out.printf("Bank   Stats: \t\t Maini Jucate: %d, Medie Balans: %.2f, Top Balance: %.2f %n", bankStats.getCount(), bankStats.getAverage(), bankStats.getMax());
             System.exit(1);
         }
 
@@ -58,8 +58,8 @@ public class DoNotGamble {
             }
             System.out.println("=========================");
             System.out.println("Ai pierdut, du-te la ATM!");
-            System.out.printf("Player Stats; \t\t Maini Jucate: %d, Medie Balans: %.2f, Suma Jucata: %.2f, Top Balance: %.2f %n", playerStats.getCount(), playerStats.getAverage(), playerStats.getSum(), playerStats.getMax());
-            System.out.printf("Bank   Stats: \t\t Maini Jucate: %d, Medie Balans: %.2f, Suma Jucata: %.2f, Top Balance: %.2f %n", bankStats.getCount(), bankStats.getAverage(), bankStats.getSum(), bankStats.getMax());
+            System.out.printf("Player Stats; \t\t Maini Jucate: %d, Medie Balans: %.2f, Top Balance: %.2f %n", playerStats.getCount(), playerStats.getAverage(), playerStats.getMax());
+            System.out.printf("Bank   Stats: \t\t Maini Jucate: %d, Medie Balans: %.2f, Top Balance: %.2f %n", bankStats.getCount(), bankStats.getAverage(), bankStats.getMax());
 
         }
     }
