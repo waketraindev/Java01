@@ -54,7 +54,7 @@ public class DoNotGamble {
                     System.out.printf("Ai PIERDUT 1 credit. \t\t Ramas: %.2f Bank: %.2f %n", moneyToDouble(pocketChange), moneyToDouble(bankBalance));
                 }
                 playerStats.accept(moneyToDouble(pocketChange));
-                bankStats.accept(moneyToDouble(pocketChange));
+                bankStats.accept(moneyToDouble(bankBalance));
             }
             System.out.println("=========================");
             System.out.println("Ai pierdut, du-te la ATM!");
